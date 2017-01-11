@@ -1,5 +1,6 @@
-html {
-
+html, body {
+	width: 100%;
+	height: 100%;
 }
 
 body {
@@ -123,4 +124,30 @@ input {
 	height: 44px;
 	border: 1px solid #E4E4E4;
 	box-shadow: 0 2px 5px 0.25px grey;
+}
+
+/* buttons */
+
+.button-div {
+	display: block;
+	top: 390px;
+	min-width: 980px;
+	margin: auto;
+	position: absolute;
+}
+
+.button {
+	color: #666;
+	font-weight: bold;
+	border: none;
+	text-align: center;
+	padding: 12px 22px;
+	border-radius: 2px;
+	margin: 5px 1px 1px 5px;
+	display: inline-block;
+	background-color: #F2F2F2;
+}
+
+.button:hover {
+	border: 1px solid #E4E4E4;
 }
