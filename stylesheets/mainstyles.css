@@ -11,8 +11,9 @@ body {
 
 /* navbar */
 .navbar {
-	height: 89px;	
+	height: 60px;	
 	width: 97%;
+	min-width: 980px;
 	margin: auto;
 }
 
@@ -49,6 +50,12 @@ body {
 img {
 	display: block;
 	margin: auto;
+}
+
+.img-div {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .main-content {
@@ -105,12 +112,14 @@ img {
 .wrapper {
 	min-height: 100%;
 	position: relative;
+	min-width: 980px;
 }
 
 /* form */
 .form {
-	margin: auto;
-	width: 600px;
+	width: 450px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 form {
@@ -120,7 +129,7 @@ form {
 }
 
 input {
-	width: 584px;
+	width: 450px;
 	height: 44px;
 	border: 1px solid #E4E4E4;
 	box-shadow: 0 2px 5px 0.25px grey;
@@ -130,10 +139,11 @@ input {
 
 .button-div {
 	display: block;
-	top: 390px;
-	min-width: 980px;
-	margin: auto;
-	position: absolute;
+	width: 310px;
+	margin-top: 55px;
+	margin-left: auto;
+	margin-right: auto;
+	position: block;
 }
 
 .button {
@@ -146,6 +156,7 @@ input {
 	margin: 5px 1px 1px 5px;
 	display: inline-block;
 	background-color: #F2F2F2;
+	border: 1px solid #F2F2F2;
 }
 
 .button:hover {
